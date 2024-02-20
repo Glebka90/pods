@@ -89,14 +89,15 @@ ul {
 }
 
 .title--m {
-    display: inline-block;
+    /* display: inline-block; */
     transform: translate(-55px, 270px);
+    position: absolute;
 }
 
 .title--ax {
-    display: inline-block;
-    transform: translate(900px, 185px);
-    position: relative;
+    /* display: inline-block; */
+    transform: translate(70px, 390px);
+    position: absolute;
     z-index: -1;
 }
 
