@@ -68,7 +68,7 @@ ul {
 }
 
 .title {
-    padding-top: 140px;
+    padding-top: 240px;
     font-size: 210px;
     font-weight: 700;
     position: absolute;
@@ -85,14 +85,12 @@ ul {
 }
 
 .title--m {
-    /* display: inline-block; */
-    transform: translate(-55px, 370px);
+    transform: translate(-55px, 270px);
     position: absolute;
 }
 
 .title--ax {
-    /* display: inline-block; */
-    transform: translate(70px, 490px);
+    transform: translate(70px, 390px);
     position: absolute;
     z-index: -1;
 }
@@ -139,7 +137,7 @@ ul {
     gap: 0 40px;
 }
 
-.Choose-colour__item {
+.choose-colour__item {
     padding: 50px 55px 50px;
     border: 1px solid #777;
     border-radius: 20px;
