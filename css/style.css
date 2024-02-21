@@ -22,6 +22,7 @@ ul {
     font-style: normal;
     font-size: 16px;
     font-weight: 500;
+    line-height: 120%;
     color: #000;
 }
 
@@ -31,9 +32,6 @@ ul {
     padding: 0 5px;
 }
 
-.header {
-    min-height: 100vh;
-}
 
 .header__menu {
     width: 100%;
@@ -76,8 +74,6 @@ ul {
     position: absolute;
 }
 
-.title-- {}
-
 .title--pod {
     position: relative;
     z-index: -1;
@@ -90,13 +86,13 @@ ul {
 
 .title--m {
     /* display: inline-block; */
-    transform: translate(-55px, 270px);
+    transform: translate(-55px, 370px);
     position: absolute;
 }
 
 .title--ax {
     /* display: inline-block; */
-    transform: translate(70px, 390px);
+    transform: translate(70px, 490px);
     position: absolute;
     z-index: -1;
 }
@@ -115,4 +111,112 @@ ul {
     right: 0;
     z-index: -2;
     background: linear-gradient(180deg, #F3D6D1 0%, rgba(235, 235, 235, 0) 100%);
+}
+
+.choose-colour {
+    padding: 180px 0;
+    text-align: center;
+}
+
+.choose-colour__title {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+
+.choose-colour__sub-title {
+    max-width: 555px;
+    margin: 20px auto 80px;
+
+}
+
+
+
+.choose-colour__list {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 0 40px;
+}
+
+.Choose-colour__item {
+    padding: 50px 55px 50px;
+    border: 1px solid #777;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.composition {
+    text-align: center;
+
+}
+
+.main__title {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.composition__sub-title {
+    max-width: 655px;
+    margin: 40px auto 40px;
+}
+
+.composition__block {
+    max-width: 625px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.composition__text {
+    max-width: 230px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.battery {
+    margin-top: 180px;
+    padding: 80px 0 100px;
+    text-align: center;
+    background: #FAFAFA;
+}
+
+
+.battery__sub-title {
+    max-width: 825px;
+    margin: 20px auto 40px;
+}
+
+.battery__image {
+    margin: 0 auto;
+    display: block;
+}
+
+.stayin-alive__title {
+    margin: 160px 0 40px;
+    height: 64px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+
+.stayin-alive__number {
+    height: 210px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-weight: 700;
+    font-size: 210px;
+}
+
+.stayin-alive__text {
+    max-width: 400px;
+    margin: 40px auto 0;
 }
